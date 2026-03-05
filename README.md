@@ -6,6 +6,78 @@ This project demonstrates practical implementation of Zero Trust, UEBA, and AI-a
 
 
 
+\## Architecture
+
+
+
+```mermaid
+
+flowchart TD
+
+
+
+A\[Security Telemetry Sources<br/>Auth Logs / VPN Logs / EDR Events] --> B\[Telemetry Simulation Engine]
+
+
+
+B --> C\[Data Normalization]
+
+
+
+C --> D\[Per-User Behavioral Baselines]
+
+
+
+D --> E\[Anomaly Detection Engine]
+
+
+
+E --> F\[Isolation Forest Model]
+
+
+
+E --> G\[Impossible Travel Detection]
+
+
+
+E --> H\[Rule-Based Risk Signals]
+
+
+
+F --> I\[Risk Scoring Engine]
+
+G --> I
+
+H --> I
+
+
+
+I --> J\[UEBA Alerts]
+
+
+
+J --> K\[SOC Analyst Dashboard<br/>Streamlit]
+
+
+
+K --> L\[Spike Day Investigation]
+
+
+
+K --> M\[Analyst Disposition Workflow]
+
+
+
+M --> N\[Detection Tuning / Feedback]
+
+```
+
+
+
+This architecture simulates a behavioral security analytics pipeline used in modern Zero Trust environments. Security telemetry from multiple sources is normalized and used to build per-user behavioral baselines. Machine learning and rule-based analytics identify anomalies, assign risk scores, and generate alerts that analysts can investigate through an interactive SOC dashboard.
+
+
+
 🚀 Project Highlights
 
 
