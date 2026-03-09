@@ -1,10 +1,10 @@
-End-to-end Zero Trust behavioral analytics pipeline with UEBA baselining, anomaly detection, and SOC analyst workflow.
+# Zero Trust AI Behavioral Analytics
 
-An enterprise-style security analytics system that models per-user behavior, detects high-risk deviations using Isolation Forest, and supports SOC investigation and case management.
+An end-to-end **Zero Trust behavioral analytics pipeline** that models user activity, establishes UEBA baselines, and detects high-risk anomalies using machine learning.
 
+The system applies **Isolation Forest anomaly detection** to identify suspicious behavioral deviations and supports **SOC investigation workflows and case management**.
 
-
-This project demonstrates practical implementation of Zero Trust, UEBA, and AI-assisted cyber analytics concepts.
+This project demonstrates practical implementation of **Zero Trust architecture, UEBA analytics, and AI-assisted cyber threat detection** within a simulated enterprise security environment.
 
 
 
